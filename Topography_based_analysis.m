@@ -266,25 +266,6 @@ if clearWorkspace == true
 end
 
 toc
-%% cross-validation !
-%
-% @TODO... in order to pick good level of regularisation (and to avoid
-% over-fitting), can use cross-validation approach. this is provided in
-% |fitrlinear()| with different schemes for CV folds, etc.
-
-
-%% Notes and references
-%
-%
-%
-% * Serge Dumoulin's homepage (original paper, software) ? <http://www.spinozacentre.nl/dumoulin/
-% http://www.spinozacentre.nl/dumoulin/>
-% * Brian Wandell's homepage ? <https://web.stanford.edu/group/vista/cgi-bin/wandell/
-% https://web.stanford.edu/group/vista/cgi-bin/wandell/>
-% * Justin Gardner's homepage ? <http://gru.stanford.edu/doku.php/shared/home
-% http://gru.stanford.edu/doku.php/shared/home>
-% * <http://gru.stanford.edu/doku.php/mrTools/tutorialsprf http://gru.stanford.edu/doku.php/mrTools/tutorialsprf>
-% ? mrTools implementation (and tutorial for how to use)
 
 %% getGammaHRF
 function fun = getGammaHRF(t)
